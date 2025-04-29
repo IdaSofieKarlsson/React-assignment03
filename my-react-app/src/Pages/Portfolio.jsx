@@ -13,13 +13,13 @@ function Portfolio() {
     
     return <div>
         <p>This is my portfolio</p>
-        <button className="portfolio-btn" onClick={() => setShowPortfolio(!showPortfolio)}>Show Portfolio</button>
+        <button className="portfolio-btn" onClick={() => setShowPortfolio(!showPortfolio)}>Show/Close Portfolio</button>
         {showPortfolio && <div className="div-projects">
             <ProjectProfile title='JS-assignment01' linkRepo='https://github.com/IdaSofieKarlsson/JS-assignment01' isCollaboration={false}
             screenshotconsole={screenshotconsole1} screenshotcode={screenshotcode1}
             techUsed='javascript' description='A very small, but significant first step: the very first project in any langue must be to print/log "Hello, World".'
             projectDoes='Logs Hello World, performs basic arithmetic operations' projectSkills='Intro to js, variables and operators'
-            challenges='An easy introduction, the challenge is mostly to not get terrified by js..'/>
+            challenges='An easy introduction, the challenge is mostly to not get terrified by js..' />
     
             <ProjectProfile title='JS-assignment05' linkRepo='https://github.com/IdaSofieKarlsson/js-assignment05' isCollaboration={false}
             screenshotconsole={screenshotconsole5} screenshotcode={screenshotcode5}

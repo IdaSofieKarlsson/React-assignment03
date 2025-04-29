@@ -28,7 +28,7 @@ function App() {
       {/*Här kan man lägga in en footer på samma sätt som en navbar */}
     </BrowserRouter>
     </>
-  )
+  );
 }
 
 export default App;

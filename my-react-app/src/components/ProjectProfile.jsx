@@ -21,7 +21,7 @@ function ProjectProfile(props) {
     return (
         <div className='project'>
             <h3>Project name: </h3>
-            <button onClick={() => setIsOpen(true)}>Show technical details</button> {/*button for popup window */}
+            <button onClick={() => setIsOpen(true)}>Show technical details</button>
             <h1 className='project-title'>{props.title}</h1>
             <img className='img' src={props.screenshotconsole} alt="screenshot console" />
             <img className='img' src={props.screenshotcode} alt="screenshoot code" />

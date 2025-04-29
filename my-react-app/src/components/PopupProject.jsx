@@ -12,7 +12,7 @@ const PopupProject = ({title, linkRepo, langues, projectDoes, projectSkills, onC
             <p className='info'>{projectSkills}</p>
             <button onClick={onClick} className='close-btn'>Close window</button>
         </div>
-    )
+    );
 };
 
 export default PopupProject;

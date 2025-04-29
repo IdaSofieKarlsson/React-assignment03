@@ -32,7 +32,7 @@ function Portfolio() {
             projectSkills='DOM' challenges='This was very challenging. I will later on expand the project with more features. '/>
         </div>}
         
-    </div>
+    </div>;
 }
 
 export default Portfolio;

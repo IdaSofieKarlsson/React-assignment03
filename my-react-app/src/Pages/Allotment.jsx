@@ -1,7 +1,7 @@
 function Allotment() {
     return <div>
         <p>All about my allotment and my vegetables.</p>
-    </div>
+    </div>;
 }
 
 export default Allotment;

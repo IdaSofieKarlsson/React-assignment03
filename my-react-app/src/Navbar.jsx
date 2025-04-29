@@ -9,6 +9,9 @@ function Navbar() {
                 <li><Link to="/portfolio">Portfolio</Link></li>
                 <li><Link to="/cv">CV</Link></li>
                 <li><Link to="/allotment">Allotment</Link></li>
+                <li><Link to="/onchange">Onchange</Link></li>
+                <li><Link to="/counter">Counter</Link></li>
+                <li><Link to="/objects">Objects</Link></li>
             </ul>
         </nav>
     </div>

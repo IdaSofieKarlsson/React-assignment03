@@ -1,7 +1,7 @@
 function About() {
     return <div>
         <p>All about Ida-Sofie!</p>
-    </div>
+    </div>;
 }
 
 export default About;

@@ -1,7 +1,7 @@
 function CV() {
     return <div>
         <p>All about my past experience</p>
-    </div>
+    </div>;
 }
 
 export default CV;

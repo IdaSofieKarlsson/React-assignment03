@@ -5,7 +5,7 @@ import About from "./Pages/About.jsx";
 import Allotment from './Pages/Allotment.jsx';
 import CV from './Pages/CV.jsx';
 import Portfolio from './Pages/Portfolio.jsx';
-import Navbar from './Navbar.jsx';
+import Navbar from './components/Navbar.jsx';
 import Onchange from './Pages/Onchange.jsx';
 import Counter from './Pages/Counter.jsx';
 import Objects from './Pages/Objects.jsx';
